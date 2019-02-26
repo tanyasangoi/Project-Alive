@@ -113,6 +113,54 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &607889174 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114301182059694268, guid: b6af97b52b3429641aa904690975fa80,
+    type: 2}
+  m_PrefabInternal: {fileID: 984980637}
+  m_Script: {fileID: 11500000, guid: 2900a6968c451a44481c09cc0a260539, type: 3}
+--- !u!1001 &984980637
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4486541323493368, guid: b6af97b52b3429641aa904690975fa80, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486541323493368, guid: b6af97b52b3429641aa904690975fa80, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486541323493368, guid: b6af97b52b3429641aa904690975fa80, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486541323493368, guid: b6af97b52b3429641aa904690975fa80, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486541323493368, guid: b6af97b52b3429641aa904690975fa80, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486541323493368, guid: b6af97b52b3429641aa904690975fa80, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486541323493368, guid: b6af97b52b3429641aa904690975fa80, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486541323493368, guid: b6af97b52b3429641aa904690975fa80, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b6af97b52b3429641aa904690975fa80, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1061049741
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,8 +169,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1061049742}
-  - component: {fileID: 1061049744}
   - component: {fileID: 1061049743}
+  - component: {fileID: 1061049744}
   m_Layer: 0
   m_Name: MeshingNodes
   m_TagString: Untagged
@@ -151,9 +199,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1061049741}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b76db2362a2bb4449b57114fc25f877, type: 3}
+  m_Script: {fileID: 11500000, guid: 581c54914282e31428b2a27a6995c525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BlackMaterial: {fileID: 2100000, guid: 985bc494b393a594ea97351b210a5843, type: 2}
+  GroundMaterial: {fileID: 2100000, guid: 363f8ff4d7ea05946846c475414a78a9, type: 2}
+  InactiveMaterial: {fileID: 2100000, guid: 7ecbc7a8028192c42b31216416c1849e, type: 2}
+  Mapper: {fileID: 607889174}
 --- !u!114 &1061049744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,13 +214,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1061049741}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa81ddb4d2bb1784dbb595779236ce7e, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e883f5afdb35f64f95ec1ad53af6edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackMaterial: {fileID: 2100000, guid: 985bc494b393a594ea97351b210a5843, type: 2}
-  GroundMaterial: {fileID: 2100000, guid: 363f8ff4d7ea05946846c475414a78a9, type: 2}
-  InactiveMaterial: {fileID: 2100000, guid: 7ecbc7a8028192c42b31216416c1849e, type: 2}
-  Mapper: {fileID: 0}
+  BtnState: 0
 --- !u!1 &1687258581
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,8 +258,8 @@ Camera:
   m_GameObject: {fileID: 1687258581}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
