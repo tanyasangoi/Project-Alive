@@ -1,0 +1,9 @@
+<manifest xmlns:ml="magicleap" ml:developer_id="f80f56bd-0d4a-4b26-a316-f2410eb95149" ml:package="com.uw.projectalive" ml:version_code="1" ml:version_name="">
+  <application ml:min_api_level="3" ml:sdk_version="1.0" ml:visible_name="ProjectAlive">
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="WorldReconstruction" />
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="ProjectAlive">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+  </application>
+</manifest>

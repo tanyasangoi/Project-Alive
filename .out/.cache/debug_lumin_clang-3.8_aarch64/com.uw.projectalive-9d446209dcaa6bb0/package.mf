@@ -1,0 +1,346 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "085ec2d5146a0efe22fe68ce46aeb849c805d6cd",
+   "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
+   "size": 5036,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
+  },
+  {
+   "compression": 8,
+   "hash": "4949f6d2b5d2c67afa08dbf68ab5c8c3e49ec525",
+   "pkgpath": "Data/170c02e10c121294486c57133d65b5cc",
+   "size": 50074,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/170c02e10c121294486c57133d65b5cc"
+  },
+  {
+   "compression": 8,
+   "hash": "cd3d81e3d82ad27ad9fff5e01fdaa948d301f3e5",
+   "pkgpath": "Data/1e71f539decd80f4bb2541c46a153223",
+   "size": 50094,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/1e71f539decd80f4bb2541c46a153223"
+  },
+  {
+   "compression": 8,
+   "hash": "b43467e117fcc51ec4da91b1050e665c3b5542c8",
+   "pkgpath": "Data/2b303258409019f428ed17a87cda4ac9",
+   "size": 50342,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/2b303258409019f428ed17a87cda4ac9"
+  },
+  {
+   "compression": 8,
+   "hash": "dbff325bfad543a7260e42d0a4f2403f040152b1",
+   "pkgpath": "Data/479521f96370b384d810a07599e7b084",
+   "size": 50254,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/479521f96370b384d810a07599e7b084"
+  },
+  {
+   "compression": 8,
+   "hash": "2469df024d59ad317a7e76013bc82f408d5efefe",
+   "pkgpath": "Data/51731a8a220e240478717934f6e99543",
+   "size": 49482,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/51731a8a220e240478717934f6e99543"
+  },
+  {
+   "compression": 8,
+   "hash": "efa6b8f8eee29eb940c9f345d15299af3c4563c9",
+   "pkgpath": "Data/63e7f9bd47d71334aa0ffb67cc5bbfb1",
+   "size": 49654,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/63e7f9bd47d71334aa0ffb67cc5bbfb1"
+  },
+  {
+   "compression": 8,
+   "hash": "edef7ddee8b73c5861e9c05cb4969d178222ed12",
+   "pkgpath": "Data/7f93338dc6150ea45b387e442e8102da",
+   "size": 49366,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/7f93338dc6150ea45b387e442e8102da"
+  },
+  {
+   "compression": 8,
+   "hash": "65df50cd3f774b7dba4a1b741a61d0511e750f4b",
+   "pkgpath": "Data/8401b9c91b47d6449a4be596c8138a90",
+   "size": 50466,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/8401b9c91b47d6449a4be596c8138a90"
+  },
+  {
+   "compression": 8,
+   "hash": "4ad51582405d12865acc4cf8619118f8276f80c0",
+   "pkgpath": "Data/917dc8bcba1c29c4c8bd325b59088d1c",
+   "size": 49310,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/917dc8bcba1c29c4c8bd325b59088d1c"
+  },
+  {
+   "compression": 8,
+   "hash": "beeb2cbd84f6b07806f2a891d30d740eaac6bcbd",
+   "pkgpath": "Data/9c9078c06443df049a2830962f9dd5ef",
+   "size": 49642,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/9c9078c06443df049a2830962f9dd5ef"
+  },
+  {
+   "compression": 8,
+   "hash": "77f74ca26b7d915db64cc219240b471ddf3be0d6",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 2812920,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "c0b2aa95a48d4e897fcc9dcfc388ea91d453bdc3",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 34392936,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\hyunb\\Desktop\\Project-Alive\\harry.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "11e0a1329c8b69c88f282c5c476e6f471aa5965e",
+   "xfrm_path": "C:/Users/hyunb/Desktop/Project-Alive/.out/.cache/debug_lumin_clang-3.8_aarch64/com.uw.projectalive-9d446209dcaa6bb0\\libil2cpp.so-d23fc6ed7ab4ceed",
+   "xfrm_size": 34393694
+  },
+  {
+   "compression": 8,
+   "hash": "dc64ed4bee950e5ce1ab12268f627a3db179e4af",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 220456,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\hyunb\\Desktop\\Project-Alive\\harry.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "a5555ab58a71728b6c62964014d22a582216c661",
+   "xfrm_path": "C:/Users/hyunb/Desktop/Project-Alive/.out/.cache/debug_lumin_clang-3.8_aarch64/com.uw.projectalive-9d446209dcaa6bb0\\AudioPluginMSASpatializer.so-4d8a78ecc2464bfc",
+   "xfrm_size": 221214
+  },
+  {
+   "compression": 8,
+   "hash": "aed32544e1ea67c511396569fcb89b586b15d839",
+   "pkgpath": "bin/UnityEngine.SpatialTracking.dll",
+   "size": 9216,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Plugins/UnityEngine.SpatialTracking.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "715f293d231a26472ba1672c3e59f76cb0e5e364",
+   "pkgpath": "bin/UnityEngine.TestRunner.dll",
+   "size": 65536,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "d93ff7b64d92abd6dbb8419c3348ab5f56ad5ec5",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 728232,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\hyunb\\Desktop\\Project-Alive\\harry.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "8b274c0ec201f7d97daea8e126a1faf8657acf73",
+   "xfrm_path": "C:/Users/hyunb/Desktop/Project-Alive/.out/.cache/debug_lumin_clang-3.8_aarch64/com.uw.projectalive-9d446209dcaa6bb0\\UnityMagicLeap.so-4d8a78ecc2464bfc",
+   "xfrm_size": 728990
+  },
+  {
+   "compression": 8,
+   "hash": "a765bb75be250a6992c1a46fc23a55501e369b85",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\hyunb\\Desktop\\Project-Alive\\harry.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "ef8b7ee229848b28ab6798a9c9bbea92c207f412",
+   "xfrm_path": "C:/Users/hyunb/Desktop/Project-Alive/.out/.cache/debug_lumin_clang-3.8_aarch64/com.uw.projectalive-9d446209dcaa6bb0\\libml_camera_plugin.so-4d8a78ecc2464bfc",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "633780c922a0dbfe032638afff9a25e3fc49219f",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 38792,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\hyunb\\Desktop\\Project-Alive\\harry.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "2ad611a3511e0a0560e94ccb15d5424eb0fdafd0",
+   "xfrm_path": "C:/Users/hyunb/Desktop/Project-Alive/.out/.cache/debug_lumin_clang-3.8_aarch64/com.uw.projectalive-9d446209dcaa6bb0\\libml_mediaplayer_plugin.so-4d8a78ecc2464bfc",
+   "xfrm_size": 39550
+  },
+  {
+   "compression": 8,
+   "hash": "5629c7ff5fb59ddc72778d4b9d3dbadcde480998",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 328192,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "dc1423ee40a78f4701880b37e1f07bc4f3500e9d",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3308004,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "3f702d40c1354f8144e5d5e69d1c8193218e5aeb",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 407276,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "9bbb5e3aae616602db933abd34140e11132fccea",
+   "pkgpath": "Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json",
+   "size": 438,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "5c18367ea31b7fc24b76d7da35e71558f3327fdc",
+   "pkgpath": "Data/adcae46baa3736748a69f9f489676bd7",
+   "size": 49726,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/adcae46baa3736748a69f9f489676bd7"
+  },
+  {
+   "compression": 8,
+   "hash": "d2d7c17dd996ab5740b38671bb74f8cdfbf256e6",
+   "pkgpath": "Data/boot.config",
+   "size": 200,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "d3d75a623c3ebfa45a9ee18bcf497efa44600f65",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 35480,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "714c73277ea2680b041549ccb2e6c03850a30797",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 36148,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "58bb11f80848b270d43b08d24545be4fb14bacef",
+   "pkgpath": "Data/level0",
+   "size": 5513,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "e092e75b9ad34f457fb3d9fe017dc238f7012f14",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 148672,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "d87467a510122a25b96fc8c9cdf23e9da9d2c103",
+   "pkgpath": "bin/Player.elf",
+   "size": 30973856,
+   "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\hyunb\\Desktop\\Project-Alive\\harry.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "9e7426441965e604c2218bc4f4b33e3b43f7912e",
+   "xfrm_path": "C:/Users/hyunb/Desktop/Project-Alive/.out/.cache/debug_lumin_clang-3.8_aarch64/com.uw.projectalive-9d446209dcaa6bb0\\Player.elf-cd36010804b21a37",
+   "xfrm_size": 30974614
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "C:/Users/hyunb/MagicLeap/mlsdk/v0.19.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\hyunb\\Desktop\\Project-Alive\\harry.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "e302708f3a3d889603aae524953b46854ccde80b",
+   "xfrm_path": "C:/Users/hyunb/Desktop/Project-Alive/.out/.cache/debug_lumin_clang-3.8_aarch64/com.uw.projectalive-9d446209dcaa6bb0\\libc++_shared.so-5330d2702c88e0b1",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "afaaab972126686591d1cc1c0a37b0dd487b6d50",
+   "pkgpath": "manifest.xml",
+   "size": 538,
+   "src": "C:\\Users\\hyunb\\Desktop\\Project-Alive\\Temp\\StagingArea\\manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "569d4d16a1d9453c994fdd54c435bcb414eea94a",
+     "developer_id": "f80f56bd-0d4a-4b26-a316-f2410eb95149"
+    }
+   },
+   "xfrm_hash": "269279889a264cb33746448419e224f0d406bf84",
+   "xfrm_path": "C:/Users/hyunb/Desktop/Project-Alive/.out/.cache/debug_lumin_clang-3.8_aarch64/com.uw.projectalive-9d446209dcaa6bb0\\manifest.xml-cd36010804b21a37",
+   "xfrm_size": 550
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "C:\\Users\\hyunb\\Desktop\\Project-Alive\\harry.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "C:\\Users\\hyunb\\Desktop\\Project-Alive\\harry.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}
