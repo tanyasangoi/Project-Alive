@@ -680,6 +680,7 @@ PlayerSettings:
     m_VersionName: 
   luminPrivilege:
   - WorldReconstruction
+  - ControllerPose
   luminMinimumPlatformAPILevel: 3
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
