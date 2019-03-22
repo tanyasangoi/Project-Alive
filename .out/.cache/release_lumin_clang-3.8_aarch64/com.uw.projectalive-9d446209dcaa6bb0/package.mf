@@ -2,7 +2,7 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "a4fc18bbd45bec3848e0b1d2ece42ada5d330548",
+   "hash": "9a773738b546cef45b00c11a82ba2f01ae48e96f",
    "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
    "size": 5036,
    "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
@@ -79,16 +79,16 @@
   },
   {
    "compression": 8,
-   "hash": "1e540c589d710123a5d080ba7493c407d8c54426",
+   "hash": "a4d2baf90bb5d92562f43af2e39843db1fb01cb8",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 2966156,
+   "size": 2817500,
    "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "8530d4a2aa99e82d4f79c8338536bb817183660e",
+   "hash": "20ef38e61f89d8b99feedab1e082c39fb4c5e58f",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 36438592,
+   "size": 34429416,
    "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -99,9 +99,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "fbbdebcbe4b3364788478a87eb565e25c7ca99cb",
+   "xfrm_hash": "c846fbc6330793ee8e29035d6645c579acd59cd8",
    "xfrm_path": "C:/Users/hyunb/Desktop/Project-Alive/.out/.cache/release_lumin_clang-3.8_aarch64/com.uw.projectalive-9d446209dcaa6bb0\\libil2cpp.so-d23fc6ed7ab4ceed",
-   "xfrm_size": 36439350
+   "xfrm_size": 34430174
   },
   {
    "compression": 8,
@@ -244,30 +244,30 @@
   },
   {
    "compression": 8,
-   "hash": "ac81ee1f843a46a0883728dc90f75d77fb6b9869",
+   "hash": "d77eac5581ac6e8446d8512dc1261495aac9fda5",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 36888,
+   "size": 35656,
    "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "168373607c23467880dbac0acc42f24bce9c1442",
+   "hash": "fdddbcf80b978f89837a8467a9f2da275821ce20",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 40348,
+   "size": 36580,
    "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "70deff56f9f1b9d81d3be3df07b97c7e71513956",
+   "hash": "c125d58e53c949d40583bded30da59de438d0e15",
    "pkgpath": "Data/level0",
-   "size": 5928,
+   "size": 5972,
    "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/level0"
   },
   {
    "compression": 8,
-   "hash": "652f9c6ad8aa94a23acfeceb6eff7c8ea8abe293",
+   "hash": "6407d591354ac502d519b5bdbbea72f81a439b20",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 449232,
+   "size": 449240,
    "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {

@@ -10,6 +10,10 @@ public class Control6DOF : MonoBehaviour
     private MLInputController _controller;
     private ControllerConnectionHandler _controllerConnectionHandler;
     private GameObject menuEl;
+    private GameObject menuE2;
+    private GameObject menuE3;
+    private GameObject menuHolder;
+    //public List<GameObject> menuObjects;
     private const float menuScale = 1f;
     private const float speed = 0.2f;
     
@@ -18,8 +22,14 @@ public class Control6DOF : MonoBehaviour
     #region Unity Methods
     void Start()
     {
+        //menuObjects = new List<GameObject>();
         menuEl = GameObject.Find("el1");
         menuEl.transform.localScale = new Vector3(0f, 0f, 0f);
+        menuE2 = GameObject.Find("el2");
+        menuE2.transform.localScale = new Vector3(0f, 0f, 0f);
+        menuE3 = GameObject.Find("el3");
+        menuE3.transform.localScale = new Vector3(0f, 0f, 0f);
+        menuHolder = GameObject.Find("MenuHolder");
         //Start receiving input by the Control
         MLInput.Start();
         _controller = MLInput.GetController(MLInput.Hand.Left);
@@ -61,9 +71,13 @@ public class Control6DOF : MonoBehaviour
             _controller.UseCFUIDTransforms = !_controller.UseCFUIDTransforms;
             Debug.Log("transforming position");
             menuEl.transform.Translate(0f,0f,0.07f, Space.Self);
-            menuEl.transform.localScale = new Vector3(menuScale, menuScale, menuScale)
-                //Vector3.Lerp(menuEl.transform.localScale, new Vector3(menuScale, menuScale, menuScale), speed * Time.deltaTime)
-                ;
+            menuEl.transform.localScale = new Vector3(menuScale, menuScale, menuScale);
+            //Vector3.Lerp(menuEl.transform.localScale, new Vector3(menuScale, menuScale, menuScale), curTime/Time.time)
+            menuE2.transform.Translate(0f, 0f, 0.07f, Space.Self);
+            menuE2.transform.localScale = new Vector3(menuScale, menuScale, menuScale);
+            menuE3.transform.Translate(0f, 0f, 0.07f, Space.Self);
+            menuE3.transform.localScale = new Vector3(menuScale, menuScale, menuScale);
+
         }
     }
 
@@ -75,8 +89,13 @@ public class Control6DOF : MonoBehaviour
         {
             // Demonstrate haptics using callbacks.
             _controller.StartFeedbackPatternVibe(MLInputControllerFeedbackPatternVibe.ForceUp, MLInputControllerFeedbackIntensity.Medium);
-            menuEl.transform.position = _controller.Position;
+            Debug.Log("resetting");
+            menuEl.transform.Translate(0f, 0f, -0.07f, Space.Self);
             menuEl.transform.localScale = new Vector3(0f, 0f, 0f);
+            menuE2.transform.Translate(0f, 0f, -0.07f, Space.Self);
+            menuE2.transform.localScale = new Vector3(0f, 0f, 0f);
+            menuE3.transform.Translate(0f, 0f, -0.07f, Space.Self);
+            menuE3.transform.localScale = new Vector3(0f, 0f, 0f);
         }
     }
 
