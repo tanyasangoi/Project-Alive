@@ -78,8 +78,13 @@ public class Control6DOF : MonoBehaviour
         //Attach the Beam GameObject to the Control
         transform.position = _controller.Position;
         transform.rotation = _controller.Orientation;
-        selectedOpt.transform.position = _controller.Position;
-        selectedOpt.transform.rotation = _controller.Orientation;
+        if (selectedOpt != null)
+        {
+            selectedOpt.transform.rotation = _controller.Orientation;
+            selectedOpt.transform.Rotate(-21.7f,0,0);
+            selectedOpt.transform.position = _controller.Position;
+            selectedOpt.transform.Translate(upVal, Space.Self);
+        }
         UpdateLED();
     }
     #endregion
@@ -175,7 +180,10 @@ public class Control6DOF : MonoBehaviour
 
     private void HandleOnButtonDown(byte controllerId, MLInputControllerButton button)
     {
-        selectedOpt.active = false;
+        touchpad = true;
+        if (selectedOpt != null){
+            selectedOpt.active = false;
+        }
         Destroy(selectedOpt, 1.0f);
         //MLInputController controller = _controllerConnectionHandler.ConnectedController;
         if (_controller != null && _controller.Id == controllerId &&
@@ -189,12 +197,12 @@ public class Control6DOF : MonoBehaviour
             //Vector3.Lerp(menuEl.transform.localScale, new Vector3(menuScale, menuScale, menuScale), curTime/Time.time)
             MenuScaleNMove("pressed");
             highlightEl();
-            touchpad = true;
         }
     }
 
     private void HandleOnButtonUp(byte controllerId, MLInputControllerButton button)
     {
+        touchpad = false;
         //MLInputController controller = _controllerConnectionHandler.ConnectedController;
         if (_controller != null && _controller.Id == controllerId &&
             button == MLInputControllerButton.Bumper)
@@ -203,9 +211,12 @@ public class Control6DOF : MonoBehaviour
             _controller.StartFeedbackPatternVibe(MLInputControllerFeedbackPatternVibe.ForceUp, MLInputControllerFeedbackIntensity.Medium);
             Debug.Log("resetting");
             MenuScaleNMove("released");
-            touchpad = false;
-            selectedOpt = Instantiate(menuObjects[selElIndex]);
-            selectedOpt.transform.localScale = new Vector3(0.025f, 0.025f, 0.025f);
+            if (selElIndex != menuObjects.Count - 1)
+            {
+                selectedOpt = Instantiate(menuObjects[selElIndex]);
+                float newScale = 0.05f * menuScale;
+                selectedOpt.transform.localScale = new Vector3(newScale, newScale, newScale);
+            }
         }
     }
 
