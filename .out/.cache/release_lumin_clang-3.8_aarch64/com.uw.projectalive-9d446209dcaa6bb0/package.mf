@@ -79,16 +79,16 @@
   },
   {
    "compression": 8,
-   "hash": "8311069d98482e25f9b87f1bd1fcf9fef2d6360f",
+   "hash": "9e9f24b47603670acd277472ca4eb748473f10ae",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 2818608,
+   "size": 2819056,
    "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "128bd1447c6c87c3d701197cde11b38af96a4300",
+   "hash": "8bd4253305dbe703e93514208f402784550d2fbc",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 34440320,
+   "size": 34446192,
    "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -99,9 +99,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "37b93438d83b7c7b6657ae56741053120ee3bfdc",
+   "xfrm_hash": "470b69d7181daae408383936bf142c475551cb2a",
    "xfrm_path": "C:/Users/hyunb/Desktop/Project-Alive/.out/.cache/release_lumin_clang-3.8_aarch64/com.uw.projectalive-9d446209dcaa6bb0\\libil2cpp.so-d23fc6ed7ab4ceed",
-   "xfrm_size": 34441078
+   "xfrm_size": 34446950
   },
   {
    "compression": 8,
@@ -244,7 +244,7 @@
   },
   {
    "compression": 8,
-   "hash": "5f51207960547829689f3eac4e558212ef586f3f",
+   "hash": "fa7392b9927ab51ad79d39d97c57ae00e7490f1c",
    "pkgpath": "Data/globalgamemanagers",
    "size": 35656,
    "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/globalgamemanagers"
@@ -258,16 +258,16 @@
   },
   {
    "compression": 8,
-   "hash": "1fbbbdeb69f13ac511c81b560a85bd0b1197a9f7",
+   "hash": "f0e6fcf545f8d971f18696b5d919c3fbbbaecdd5",
    "pkgpath": "Data/level0",
-   "size": 7076,
+   "size": 14068,
    "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/level0"
   },
   {
    "compression": 8,
-   "hash": "64c3543def182bc3aee666aad03867a379c4464a",
+   "hash": "db89e27c0ad9f529852b8cae4bd9baa488ba226d",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 450216,
+   "size": 460416,
    "src": "C:/Users/hyunb/Desktop/Project-Alive/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
