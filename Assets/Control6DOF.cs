@@ -11,7 +11,7 @@ public class Control6DOF : MonoBehaviour
     private ControllerConnectionHandler _controllerConnectionHandler;
     private const float menuScale = 0.8f;
     private const float selScale = 1f;
-    private Vector3 upVal = new Vector3(0f,0f,0.08f);
+    private Vector3 upVal = new Vector3(0f, 0f, 0.08f);
     private Vector3 downVal = new Vector3(0f, 0f, -0.08f);
     private const float speed = 0.2f;
     private GameObject selectedOpt;
@@ -81,7 +81,7 @@ public class Control6DOF : MonoBehaviour
         if (selectedOpt != null)
         {
             selectedOpt.transform.rotation = _controller.Orientation;
-            selectedOpt.transform.Rotate(-21.7f,0,0);
+            selectedOpt.transform.Rotate(-21.7f, 0, 0);
             selectedOpt.transform.position = _controller.Position;
             selectedOpt.transform.Translate(upVal, Space.Self);
         }
@@ -119,7 +119,7 @@ public class Control6DOF : MonoBehaviour
                 if (dir.ToString().Equals("Left"))
                 {
                     Debug.Log("left selected");
-                    if(selElIndex <= 0)
+                    if (selElIndex <= 0)
                     {
                         selElIndex = menuObjects.Count - 2;
                     }
@@ -132,7 +132,7 @@ public class Control6DOF : MonoBehaviour
                 }
                 else if (dir.ToString().Equals("Right"))
                 {
-                    if (selElIndex >= menuObjects.Count-2)
+                    if (selElIndex >= menuObjects.Count - 2)
                     {
                         selElIndex = 0;
                     }
@@ -181,7 +181,8 @@ public class Control6DOF : MonoBehaviour
     private void HandleOnButtonDown(byte controllerId, MLInputControllerButton button)
     {
         touchpad = true;
-        if (selectedOpt != null){
+        if (selectedOpt != null)
+        {
             selectedOpt.active = false;
         }
         Destroy(selectedOpt, 1.0f);
@@ -240,7 +241,7 @@ public class Control6DOF : MonoBehaviour
                 menuObjects[i].transform.Translate(upVal, Space.Self);
                 menuObjects[i].transform.localScale = new Vector3(menuScale, menuScale, menuScale);
             }
-            
+
         }
         else
         {
@@ -252,5 +253,3 @@ public class Control6DOF : MonoBehaviour
         }
     }
 }
-
-
