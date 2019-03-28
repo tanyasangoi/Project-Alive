@@ -10,7 +10,7 @@ public class GetFood : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         foods = new GameObject[] { };
-        dino = GameObject.Find("PH1");
+        dino = GameObject.Find("test");
 	}
 	
 	// Update is called once per frame
