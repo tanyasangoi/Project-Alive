@@ -239,6 +239,17 @@ public class Control6DOFclick : MonoBehaviour
         {
             MLInputControllerFeedbackIntensity intensity = (MLInputControllerFeedbackIntensity)((int)(value * 2.0f));
             _controller.StartFeedbackPatternVibe(MLInputControllerFeedbackPatternVibe.Click, intensity);
+            GameObject temp;
+            if (selElIndex != menuObjects.Count - 1)
+            {
+                temp = Instantiate(menuObjects[selElIndex]);
+                float newScale = 0.05f * menuScale;
+                temp.transform.localScale = new Vector3(newScale, newScale, newScale);
+                temp.transform.rotation = _controller.Orientation;
+                temp.transform.Rotate(-21.7f, 0, 0);
+                temp.transform.position = _controller.Position;
+                temp.transform.Translate(upVal, Space.Self);
+            }
         }
     }
 
