@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Plant
+  - Meat
   layers:
   - Default
   - TransparentFX

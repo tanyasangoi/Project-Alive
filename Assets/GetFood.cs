@@ -5,21 +5,22 @@ using UnityEngine;
 public class GetFood : MonoBehaviour {
 
     private GameObject[] foods;
-    private GameObject dino;
+    private readonly float speed = 1.0f;
+    private readonly string meat = "Meat";
+    private readonly string plant = "Plant";
 
 	// Use this for initialization
 	void Start () {
         foods = new GameObject[] { };
-        dino = GameObject.Find("test");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        foods = GameObject.FindGameObjectsWithTag("Plant");
+        foods = GameObject.FindGameObjectsWithTag(meat);
         if(foods.Length > 0)
         {
             int objectNum = FindClosest();
-            Debug.Log(foods[objectNum].name);
+            //Debug.Log(foods[objectNum].name);
             Move(objectNum);
         }
 	}
@@ -30,8 +31,8 @@ public class GetFood : MonoBehaviour {
         int foodObject = -1;
         for(int i = 0; i < foods.Length; i++)
         {
-            double a = (dino.transform.position - foods[i].transform.position).sqrMagnitude;
-            Debug.Log(foods[i].name + " " +a);
+            double a = (transform.position - foods[i].transform.position).sqrMagnitude;
+            //Debug.Log(foods[i].name + " " +a);
             if (a < min)
             {
                 min = a;
@@ -46,7 +47,9 @@ public class GetFood : MonoBehaviour {
 
     private void Move(int num)
     {
-        Debug.Log("moving");
-        dino.transform.position = Vector3.MoveTowards(dino.transform.position, foods[num].transform.position, 1.0f * Time.deltaTime);
+        Vector3 dir = foods[num].transform.position - transform.position;
+        transform.position += dir * speed * Time.deltaTime;
+        Debug.Log("moving" + transform.position);
+        //dino.transform.position = Vector3.MoveTowards(dino.transform.position, foods[num].transform.position, 1.0f * Time.deltaTime);
     }
 }
