@@ -249,6 +249,19 @@ public class Control6DOFclick : MonoBehaviour
                 temp.transform.Rotate(-21.7f, 0, 0);
                 temp.transform.position = _controller.Position;
                 temp.transform.Translate(upVal, Space.Self);
+                temp.AddComponent<Rigidbody>();
+                if(selElIndex == 0)
+                {
+                    temp.tag = "Plant";
+                }else if (selElIndex == 1)
+                {
+                    temp.tag = "Meat";
+                }
+                else
+                {
+
+                }
+                
             }
         }
     }
