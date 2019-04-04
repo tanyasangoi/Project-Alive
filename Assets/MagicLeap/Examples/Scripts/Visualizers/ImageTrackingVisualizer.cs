@@ -167,9 +167,9 @@ namespace MagicLeap
         /// </summary>
         private void OnTargetLost()
         {
-            _eventString = "Target Lost";
-            _targetFound = false;
-            RefreshViewMode();
+           // _eventString = "Target Lost";
+           // _targetFound = false;
+           // RefreshViewMode();
         }
         #endregion
     }
